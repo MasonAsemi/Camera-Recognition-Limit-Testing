@@ -1,0 +1,21 @@
+# Python environment / bytecode
+venv/
+__pycache__/
+*.pyc
+
+# Downloaded third-party model files (not authored code -- see README/setup
+# notes for provenance; dlib-models and MediaPipe's official model repo)
+models/*.dat
+models/*.task
+
+# Local runtime state -- machine-specific, regenerated on first run
+config.json
+debug.log
+presence_log.csv
+identity_log.csv
+
+# Personal biometric data -- must never be committed or shared
+face_profile.json
+
+# Local tool config, not shared project config
+.claude/settings.local.json

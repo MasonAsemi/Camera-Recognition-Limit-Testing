@@ -1,0 +1,10 @@
+# Pinned to 4.10.0.84: newer 5.0.0.93 builds on PyPI are missing bundled
+# Haar cascade data files (and, as opencv-python proper, even CascadeClassifier
+# itself) on Windows as of Aug 2026.
+opencv-contrib-python==4.10.0.84
+numpy==2.4.6
+
+# dlib-bin ships a prebuilt Windows wheel (plain "dlib" has none for this
+# platform/Python combo and would require a full CMake + Visual Studio
+# Build Tools compile). It installs as the normal `dlib` import.
+dlib-bin==20.0.1
