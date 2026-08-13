@@ -1,0 +1,11 @@
+# Microphone capture + phrase boundary detection (local only -- we never call
+# any of its recognize_* cloud methods, just Recognizer/Microphone capture).
+SpeechRecognition>=3.10
+
+# Backend for SpeechRecognition's Microphone class on Windows.
+PyAudio>=0.2.14
+
+# MFCC feature extraction, fully local (no model download required).
+librosa>=0.10.2
+
+numpy>=1.26

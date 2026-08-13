@@ -13,9 +13,11 @@ config.json
 debug.log
 presence_log.csv
 identity_log.csv
+voice_log.csv
 
 # Personal biometric data -- must never be committed or shared
 face_profile.json
+voice_profile.json
 
 # Local tool config, not shared project config
 .claude/settings.local.json
